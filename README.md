@@ -16,10 +16,10 @@ If your spaceship touches an asteroid, you die and restart the game.
 
 ### Design
 Identify the classes you need and what data they need to store (create a domain model if that helps you identify the initial state of all objects including data and relationships).
-	* Where are the objects on-screen?
-	* What is their direction and speed (movement on y-axis)?
-	* How does the game end - and how is it reported to the player?
-	* How does the player restart the game? (press Enter?) - and how do you reset all the objects in the game? Do you release all objects to the Garbage Collector or reuse them by resetting their values (position, speed, etc.)
+* Where are the objects on-screen?
+* What is their direction and speed (movement on y-axis)?
+* How does the game end - and how is it reported to the player?
+* How does the player restart the game? (press Enter?) - and how do you reset all the objects in the game? Do you release all objects to the Garbage Collector or reuse them by resetting their values (position, speed, etc.)
 
 ### Implementation
 Make spikes, to ensure you understand how the MonoGame framework and the algorithms work.
