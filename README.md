@@ -26,9 +26,9 @@ Make spikes, to ensure you understand how the MonoGame framework and the algorit
 
 **Test automatic movement**
 Create a class Sprite that has the properties:
-	* An "Image" Texture2D
-	* A "Position" (Point or Vector)
-	* A "Speed" (number of pixels moved on y-axis per update)
+* An "Image" Texture2D
+* A "Position" (Point or Vector)
+* A "Speed" (number of pixels moved on y-axis per update)
 Add an Update() method to the Sprite class which updates the position
 For each call to Game.Update() - call the Sprite class' Update metho
 For each call to Game.Draw() - draw the Sprite's Image on screen in the updated position
