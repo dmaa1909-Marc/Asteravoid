@@ -1,0 +1,22 @@
+	What is Sprites?
+Sprite is a 2D graphic element, this can be either a static- or animated image. Sprites are also sometimes reffered to as icons.
+Sprites are manipulated with bitmaps. Bitmaps map bits to a specific pixel of an image, where the number of bits per pixel is determined by the color depth.
+
+	How does a gameloop function?
+A gameloop is an infinite loop that keeps your gamecode running, meaning this is the main class of the program, where everything will be executed, initialized, updated and drawn onto the screen.
+A gameloop is typically split into different categories, such as the ones mentioned below.
+
+	Initialize()
+This is where you do your initial environment setup, instantiate game objects and prepare the initial game menu.
+
+	Update()
+This is where you apply the physics, and update everything that happens during the game; Points, health points, upgrades, movement ect.
+
+	Draw()
+This is where you draw all the information onto the screen; levels, characters, enemies ect.
+
+	State management
+Since the gameloop is an infinite loop, we need to control what is presented to the screen, this is most often done with the implementation of state machines.
+These machines controls wheter you are looking at the gamemenu, credits/highscores or playing the game.
+With my limited experince with Unity, so far I've been using state as an ENUM and been controlling the state during the gameloop with a switch.
+Though this has been working, I don't think this is considered "best practice", since controlling what happens during each state within a switch case might be quite confusing with a large project.
